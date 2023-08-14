@@ -1,0 +1,65 @@
+body{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Mono', monospace;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header1{
+    border-bottom: #bcedff 10px solid;
+}
+.header img{
+    margin-top: 4vw;
+}
+.header h1{
+    color: white;
+    font-size: 2.8vw;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    
+}
+.header h2{
+    color: white;
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 5vw;
+}
+.intro{
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 1vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: 400;
+    padding: 3vw;
+}
+.intro p{
+    background-color: rgb(41, 128, 185, 0.5);
+}
+li{
+    margin-top: 1vw;
+}
+h3{
+    color: white !important;
+    font-size: 2.3vw !important;
+    padding-bottom: 0.5vw;
+    border-bottom:#FFFFFF 3px solid;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+svg{
+    margin-top: 2vw;
+}
+.footer{
+background-color: #08355f;
+display: flex;
+justify-content: flex-end;
+}
