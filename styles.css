@@ -7,6 +7,21 @@ body{
     background-attachment: fixed;
     font-family: 'Roboto Mono', monospace;
 }
+#preloadedImages
+{
+    width: 0px;
+    height: 0px;
+    display: inline;
+    background-image: url(/images/image.png);
+    background-image: url(/images/jiu1.png);
+    background-image: url(/images/jiu2.png);
+    background-image: url(/images/schema.png);
+    background-image: url(/images/starry_night.png);
+    background-image: url(/images/zuzalu-city.png);
+    background-image: url(/images/zuzalu-logo.png);
+    background-image: url();
+
+}
 .header{
     display: flex;
     align-items: center;
