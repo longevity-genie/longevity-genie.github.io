@@ -6,22 +6,19 @@ body{
     background-size:cover;
     background-attachment: fixed;
     font-family: 'Roboto Mono', monospace;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
-#preloadedImages
-{
-    width: 0px;
-    height: 0px;
-    display: inline;
-    background-image: url(/images/image.png);
-    background-image: url(/images/jiu1.png);
-    background-image: url(/images/jiu2.png);
-    background-image: url(/images/schema.png);
-    background-image: url(/images/starry_night.png);
-    background-image: url(/images/zuzalu-city.png);
-    background-image: url(/images/zuzalu-logo.png);
-    background-image: url();
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
-}
 .header{
     display: flex;
     align-items: center;
