@@ -70,9 +70,106 @@ h3{
 }
 svg{
     margin-top: 2vw;
+    visibility: hidden;
 }
 .footer{
 background-color: #08355f;
 display: flex;
 justify-content: flex-end;
+}
+ol{
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1100px){
+    h1{
+        font-size: 4vw !important;
+    }
+    h2{
+        font-size: 3vw !important;
+    }
+    h3{
+        font-size: 2.8vw !important;
+    }
+    .intro{
+    width: 70%
+    }
+    .intro p{
+        font-size: 1.5vw !important;
+    }
+    li{
+        font-size: 1.5vw !important;
+    }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1100px){
+    .intro{
+    padding: 5vw;
+    }
+}
+@media only screen and (max-width: 1099px) and (min-width: 600px){
+    img.logo{
+        width: 25vw;
+
+    }
+    h1{
+        margin-top: 1vw !important;
+        font-size: 4.5vw !important;
+    }
+    h2{
+        font-size: 3.5vw !important;
+        margin-top: 2vw !important;
+    }
+    h3{
+        font-size: 4vw !important;
+    }
+    .intro{
+    width: 80%
+    }
+    .intro p{
+        font-size: 2vw !important;
+    }
+    li{
+        font-size: 2vw !important;
+    }
+}
+@media only screen and (max-width: 599px) {
+    img.logo{
+        width: 40vw;
+    }
+    .header1{
+        border-bottom: #bcedff 5px solid;
+    }
+.header{
+    background-image: url("./images/jiu2.png") !important;
+    padding: 5vw;
+}
+    h1{
+        margin-top: 1vw !important;
+        font-size: 8vw !important;
+    }
+    h2{
+        text-align: center !important;
+        font-size: 4.6vw !important;
+        margin-top: 2vw !important;
+    }
+    h3{
+        font-size: 6vw !important;
+    }
+    .intro{
+        margin-top: 8vw;
+        width: 80%;
+        padding: 5vw;
+    }
+    .intro p{
+        font-size: 3.4vw !important;
+    }
+    li{
+        font-size: 3.4vw !important;
+    }
+    svg{
+        max-width: 10% !important;
+        margin-top: 0 !important;
+        margin-bottom:0;
+        height: 20vw !important;
+    }
 }
