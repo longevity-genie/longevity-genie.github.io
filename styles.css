@@ -43,10 +43,23 @@ body{
     padding: 3vw;
 }
 .intro p{
-    background-color: rgb(41, 128, 185, 0.5);
+    /* background-color: rgb(41, 128, 185, 0.5);*/
 }
 li{
     margin-top: 1vw;
+}
+a{
+    font-weight: 700;
+    color:rgb(4, 255, 242) !important;
+}
+a:visited{
+    font-weight: 700;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 h3{
     color: white !important;
