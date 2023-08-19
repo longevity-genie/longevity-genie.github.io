@@ -92,6 +92,25 @@ justify-content: flex-end;
 ol{
     margin-left: 30%;
 }
+.intro1{
+    border:5px solid white;
+    font-size: 1.5vw;
+}
+img.qr{
+    width: 18vw;
+}
+section.section-qr{
+    width: 65%;
+    margin: auto;
+    margin-top: 4vw;
+
+}
+section.section-qr img.qr{
+    width: 14vw;
+}
+p.smaller{
+    font-size: 1vw;
+}
 
 @media only screen and (max-width: 1800px) and (min-width: 1100px){
     h1{
@@ -112,16 +131,37 @@ ol{
     li{
         font-size: 1.5vw !important;
     }
+    .intro1 p{
+        font-size: 2vw !important;
+    }
+    img.qr{
+        width: 18vw;
+    }
+    p.smaller{
+        font-size: 1.5vw !important;
+    }
+
 }
 @media only screen and (max-width: 1600px) and (min-width: 1100px){
+    .intro1 p{
+        font-size: 2vw !important;
+    }
     .intro{
     padding: 5vw;
     }
+    p.smaller{
+        font-size: 1.5vw !important;
+    }
+
 }
 @media only screen and (max-width: 1099px) and (min-width: 600px){
     img.logo{
         width: 25vw;
 
+    }
+
+    img.qr{
+        width: 24vw;
     }
     h1{
         margin-top: 1vw !important;
@@ -143,8 +183,20 @@ ol{
     li{
         font-size: 2vw !important;
     }
+    .intro1 p{
+        font-size: 3vw !important;
+    }
+    p.smaller{
+        font-size: 2vw !important;
+    }
+    .qr.qr1{
+        width: 20vw !important;
+    }
 }
 @media only screen and (max-width: 599px) {
+    img.qr{
+        width: 40vw;
+    }
     img.logo{
         width: 40vw;
     }
@@ -183,5 +235,18 @@ ol{
         margin-top: 0 !important;
         margin-bottom:0;
         height: 20vw !important;
+    }
+    .intro1 p{
+        font-size: 5vw !important;
+    }
+    p.smaller{
+        font-size: 3.4vw !important;
+    }
+    .section-qr{
+        margin-top: 10vw;
+        width: 90%;
+    }
+    .qr.qr1{
+        width: 35vw !important;
     }
 }
