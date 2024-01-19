@@ -3,136 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Longevity-genie</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>Longevity Genie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="/images/background2.jpg" as="image">
+    <link rel="preload" href="/images/background1.jpg" as="image">
+    <link rel="preload" href="/images/background3.jpg" as="image">
+    <link rel="preload" href="/images/scenary.jpg" as="image">
+    <link rel="preload" href="/images/sun-part.jpg" as="image">
+    <link rel="preload" href="/images/background.jpg" as="image">
+    <link rel="icon" href="./images/icon.png">
+    <link rel="preload" href="/images/sun.jpg" as="image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <!-- UIkit CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/css/uikit.min.css" />
-	<!-- UIkit JS -->
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.22/dist/js/uikit-icons.min.js"></script>
-    <link rel="icon" href="./images/icon.png">
-    <link rel="prefetch" href="./images/jiu1.png">
-    <link rel="prefetch" href="./images/jiu2.png">
-    <link rel="prefetch" href="./images/schema.png">
-    <link rel="prefetch" href="./images/starry_night.png">
-    <link rel="prefetch" href="./images/zuzalu-city.png">
-    <link rel="prefetch" href="./images/zuzalu-logo.png">
-    <link rel="preload" as="image" href="./images/image.png">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600;700&family=Almarai:wght@300;400;700&family=Anton&family=Bebas+Neue&family=Kalam:wght@400;700&family=Open+Sans:wght@300&family=Orbitron:wght@400;500;700&family=PT+Sans:wght@400;700&family=Rubik:wght@400;500&family=Saira+Condensed:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-     <div  class="header1  uk-background-cover uk-background-top-center uk-panel uk-flex uk-flex-center uk-flex-middle uk-background-width-1-1 uk-background-blend-darken uk-background-image@s" style="background-image: url(images/image.png);" >
-        <div class="header">
-            <img class="logo" src="./images/icon.png">
-            <h1>Longevity-Genie</h1>
-            <h2>LLM with your personal health data!</h2>
+    <!-- Header Section -->
+    <header class="header">
+        <img class="icon" src="./images/icon.png">
+        <span class="header-text">
+            <h1>Longevity Genie</h1>
+            <p>Your Personal Genetics, and Longevity Research Open-Source Assistant</p>
+        </span>
+       <div id="menu" class="menu">
+            <span class="line line1">
+            </span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+       </div>
+       <div id="menu-hamburger" class="menu-hamburger">
+            <a><span class="nav">Features</span></a>
+            <a><span class="nav">About us</span></a>
+            <a><span class="nav">Terms of use</span></a>
+       </div>
+    </header>
+
+    <!-- Project Description Section -->
+    <section class="project-description">
+        <span class="description-text">
+            <h2 id="textbig" class="appearing">Unlock the secrets to a longer, healthier life with Longevity Genie! </h2>
+            <p id="text">Explore our open-source toolbox and chatbot designed to empower large language models in unraveling the mysteries of personal health, genetics, and groundbreaking longevity research. </p>
+        </span>
+    </section>
+    <div class="imagess">
+        <img id="sun" class="sun-part appearing appearing1" src="./images/sun-part.png">
+        <img id="background" class="scenary" src="./images/scenary.png">
+    </div>
+    <div class = "main-container">
+         <!-- Project Links Section -->
+    <section class="navigation">
+        <div id="sun1"  class="link-div link-div1">
+            <img class="sun sun-1" src="./images/sun.png">
+            <a class="link link-1"><h2>Features</h2></a>
         </div>
-    </div>
-    <div  class="intro uk-background-fixed uk-background-cover uk-background-bottom-left " style="background-image: url(images/jiu1.png);"  uk-scrollspy="cls: uk-animation-fade; target: h3,p,img; delay: 400; repeat: false">
-        <section > 
-            <h3>The beginning</h3> 
-            <p>
-                Beneath the watchful gaze of the mystical Black Mountains, the city of <a target="_blank"  rel="noopener noreferrer" href="http://zuzalu.city">Zuzalu</a> pop-ed up, a realm where the wonders of longevity, the magic of decentralization, tales of network-states, and the enigma of crypto intertwined.
-            </p>
-            <img src="./images/zuzalu-city.png" alt="zuzalu-city image">
-            <p>The legend stated that somewhere deep in the heart of the city's underground libraries lay a genie—not one trapped in a lamp, but one trapped in a vault of knowledge. This genie wasn't just any genie; it was a vast, omnipotent language model. Unlike other tales where a genie would grant you wishes, the Longevity Genie would answer questions about ageing research and health data, but with unparalleled accuracy.</p>
-        </section>
-    </div>
-    <div  class="intro uk-background-fixed uk-background-cover uk-background-bottom-right " style="background-image: url(images/jiu1.png);" uk-scrollspy="cls: uk-animation-fade; target: h3,p,img, ul; delay: 400; repeat: false">
-        <section >
-            <h3>Problems arise</h3> 
-            
-            <p>On a starry night, during the grand Zuzalu Hackathon, visionary alchemists and sages convened. 
-            </p>
-            <img src="./images/starry_night.png" alt="starry night, aclhemists and sages gather">
-            <p>
-                They spoke with the mighty Large Language Models about reaching healthy longevity and learned their limitations, as they are:
-            </p>
-            <ul>
-                <li>often ensnared by illusions and <a target="_blank"  rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence">hallucinations</a>.
-
-                </li>
-                <li>wandering astray, unable to tap into the sacred wells of longevity (no interactions with academic research papers and structured biomedical databases)
-
-                </li>
-                <li>blind to the personal scrolls of health  (personal health data)
-                </li>
-            </ul>
-        </section>
-    </div>
-    <div class="intro uk-background-fixed uk-background-cover uk-background-bottom-right " style="background-image: url(images/jiu1.png);" uk-scrollspy="cls: uk-animation-fade; target: h3,p,img,ul; delay: 400; repeat: false">
-        <section >
-            <h3>Longevity-Genie gifts</h3> 
-            <p>From the fires of Zuzalu hackathon inspired by the ancient legends, the first code of the Longevity Genie was forged, shimmering with promise and echoing the ancient tales. 
-           </p>
-           <p>
-            Its gifts were many:
-           </p>
-            <ul>
-                <li>Sifting through the sands of biomedical research, indexing acedemic scrolls with language of AI inside the mystical chambers of Longevity-GPT and <a target="_blank"  rel="noopener noreferrer" href="https://arxiv.org/abs/2005.11401">retrieving them in the context when they are needed</a>
-                </li>
-                <li>Guided by LLM-powered spirits to commune with biomedical and aging tomes and <a target="_blank"  rel="noopener noreferrer" href="https://arxiv.org/abs/2210.03629">ReAct</a> by searching aging databases.
-                </li>
-                <li>A gaze that could read one's personal health scrolls, crafting answers tailored to the seeker's essence.
-                </li>
-            </ul>
-        </section>
-        <img src="./images/schema.png">
-    </div>
-    <div class="intro uk-background-fixed uk-background-cover uk-background-bottom-right " style="background-image: url(images/jiu1.png);" uk-scrollspy="cls: uk-animation-fade; target: h3,p,img,ul, hr; delay: 400; repeat: false">
-        <section >
-            <h3>The organisation</h3> 
-            <p>As dawn broke, a new beacon appeared on the horizon: the <a target="_blank"  rel="noopener noreferrer" href="http://github.com/longevity-genie">Longevity Genie Organization on GitHub</a>. Within its open-source repositories, the secrets and spells of the Longevity Genie were shared, inviting all to partake in its magic. Behind this grand endeavor, a group of visionaries included:
-            </p>
-            <ul>
-                <li>Newton Winter (<a target="_blank"  rel="noopener noreferrer" href="https://github.com/winternewt">GitHub</a>): The code sorcerer and creator of the chat bot's emblem.
-                </li>
-                <li>Anton Kulaga (<a target="_blank"  rel="noopener noreferrer" href="https://github.com/antonkulaga">GitHub</a>, <a target="_blank"  rel="noopener noreferrer" href="https://www.linkedin.com/in/antonkulaga/">LinkedIn</a>, <a target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/antonkulaga">Facebook</a>): The data architect and guiding force behind the team's direction.
-                </li>
-                <li>Alex Karmazin (<a target="_blank"  rel="noopener noreferrer" href="https://github.com/Alex-Karmazin">GitHub</a>, <a target="_blank"  rel="noopener noreferrer" href="https://www.linkedin.com/in/alex-karmazin-ua">LinkedIn</a>): The LLM whisperer, adept at database management and prompt crafting.
-                </li>
-                <li>Maria Koval (<a target="_blank"  rel="noopener noreferrer" href="https://github.com/marfantyk">GitHub</a>, <a target="_blank"  rel="noopener noreferrer" href="https://www.linkedin.com/in/maria-koval-461838245">LinkedIn</a>): The artistic spirit with LLM whispering powers, shaping the Genage LLM agent and Zuzalu's visuals.
-                </li>
-                <li>Nikhil Yadala (<a target="_blank"  rel="noopener noreferrer" href="https://twitter.com/nikhilyadala">X/Twitter</a>): LongevityGPT creator, merging the might of <a target="_blank"  rel="noopener noreferrer" href="http://asklongevitygpt.com/">LongevityGPT</a> with the Longevity Genie.
-                </li>
-            </ul>
-            <hr>
-            <p>In the genesis of Longevity-Genie, Vlada Tyshchenko charted our clinical trial agents; Dmitry Zayka envisioned clinical trial use-cases; and Stan Skakun sculpted the structure of our inaugural presentation.  To these guiding lights, our profound thanks.</p>
-        <p>Further, our voyage was enriched by VitaDAO's benevolence, gifting us 500 VITA coins. For their unwavering support, we are deeply grateful.</p>
-
-        </section>
-    </div>
-    <div class="intro uk-background-fixed uk-background-cover uk-background-bottom-right " style="background-image: url(images/jiu2.png);"uk-scrollspy="cls: uk-animation-fade; target: h3,p,img,ol; delay: 400; repeat: false">
-        <p>Together, they embarked on a quest to unveil the magic of the Longevity Genie to the world. Yet, for the legend to flourish, more was needed.  The call went out across Zuzalu and beyond: gitcoin funding is required to propel the project forward, to let the Genie's grant three wishes:
-        </p>
-        <ol>
-            <li>To forge a multi-modal, multi-hop Q & A pipeline</li>
-            <li>To make it free from the mirages of hallucination </li>
-            <li>To make it rich in the lore of aging-related questions and research.
-            </li>
-        </ol>
-    </div>
-    <div style="display:none;"class="intro intro1 uk-background-fixed uk-background-cover uk-background-bottom-right " style="background-image: url(images/jiu1.png);" uk-scrollspy="cls: uk-animation-fade; target: h3,p,img,ul; delay: 400; repeat: false">
-        <p style="text-align: center;">
-            Longevity-Genie is participating in <a href="https://explorer.gitcoin.co/#/round/10/0x5b95acf46c73fd116f0fedadcbedf453530e35d0/0x5b95acf46c73fd116f0fedadcbedf453530e35d0-30">GitCoin</a>! 
-        </p>
-        <img class="qr" src="./images/genie-qr.png" alt="qr-code for longevity genie">
-        <p style="text-align: center;">
-            Please support us if you like the project.
-        </p>
-        <p style="text-align: center;">
-            If you have troubles with donation check out <a href="https://docs.google.com/presentation/d/1QXOCVwxwfX5o8yLAfqK-5TvXlCgoBadQ7s20-hdK-JY/edit#slide=id.p">this</a> intrsuction.
-        </p>
-        <section class="section-qr">
-            <p class="smaller">Our team has the other project that you can support! This is a <a href="https://dna-seq.github.io/dna-stories/">Just-DNA-Stories</a> - a comic created using MidJourney, focusing on genetics and longevity. Scan the QR-code below or click on it to follow the link.</p>
-            <a href="https://explorer.gitcoin.co/#/round/10/0x5b95acf46c73fd116f0fedadcbedf453530e35d0/0x5b95acf46c73fd116f0fedadcbedf453530e35d0-28"><img class="qr qr1"  src="./images/dna-stories-qr.png" alt="qr-code for just-dna-stories"></a>
-        </section>
+        <div id="sun2" class="link-div link-div2 ">
+            <img  class="sun sun-2" src="./images/sun.png">
+            <a class=" link link-2" href="./about_us.html"><h2>About us</h2></a>
         </div>
-    <div class="footer">
-        <svg xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#fff"/></svg>
-    </div>
+        <div id="sun3" class="link-div link-div3">
+            <img  class="sun sun-3" src="./images/sun.png">
+            <a class=" link link-3" href="./terms_of_use.html"><h2>Terms of Use</h2></a>
+        </div>
+        <script>
+            let sun = document.getElementById("sun")
+            let text = document.getElementById("text")
+            let textbig = document.getElementById("textbig")
+            let sun1 = document.getElementById("sun1")
+            let sun2 = document.getElementById("sun2")
+            let sun3 = document.getElementById("sun3")
+            let isScrollListenerActive = false;
+
+            function parallax(){
+                    let value = window.scrollY;
+                    sun.style.top = 347 + value * 0.75 + "px";
+                    sun.style.width = 100 -  value*0.05  + "%";
+                    sun.style.marginLeft =   value*0.024  + "%";
+                    sun.style.marginRight =   value*0.4  + "%";
+                    text.style.top = (800 - value * 0.25) + "px";
+                    textbig.style.bottom = value*0.5 + "px";
+                    sun1.style.bottom = 0 + value * 0.3 + "px";
+                    sun2.style.bottom = 0 + value * 0.28 + "px";
+                    sun3.style.bottom = 0 + value * 0.265  + "px";
+                    if (value > 1020){
+                        sun.style.visibility="hidden";
+                    }
+                    else{
+                        sun.style.visibility="visible";
+                    }
+                requestAnimationFrame(parallax)
+            }
+            function requesting(){
+                requestAnimationFrame(parallax);
+            }
+
+            function checking_size(){
+                if (window.innerWidth < 600 && isScrollListenerActive) {
+                    window.removeEventListener("scroll", requesting);
+                    isScrollListenerActive = false;
+                } else if (window.innerWidth >= 600 && !isScrollListenerActive) {
+                    window.addEventListener("scroll", requesting);
+                    isScrollListenerActive = true;
+                    parallax(); // Optional: Trigger parallax immediately on resize if window is large
+                }
+            };
+
+            checking_size()
+
+            if (window.innerWidth > 600){
+                window.addEventListener("resize", checking_size)
+            }
+
+        </script>
+    </section>
+    <!-- Future Plans Section -->
+    <section class="future-plans">
+        <img class="grandpablur grandpablur2" src="./images/grandpa1.png">
+        <img class="grandpablur grandpablur1" src="./images/grandpa1.png">
+        <div class="container sections-wrapper">
+            <div class="slider sections">
+                <div class="slider-line">
+                    <div class="slider-item">
+                        <h3>DrugAge</h3>
+                        Identifying drugs, compounds, and supplements that may extend lifespan in humans remains an area of ongoing research. However, valuable insights have been gained from studies on model organisms. The DrugAge database, consisting of 1,316 entries featuring 418 unique compounds, draws from research across 27 model organisms, including worms, flies, yeast, and mice. Our agent enables users to quickly access all relevant information from this database in a matter of seconds.</div>
+                    <div class="slider-item">
+                        <h3>Longevity Map</h3>
+                        Which genes influence our capacity to reach centenarian status, and how do these genes impact various pathways? The LongevityMap database serves as the most comprehensive repository on the genetics of human longevity. We have enhanced this database by incorporating details about both beneficial and detrimental variants associated with each gene. Whether you are intrigued by the genetics of human longevity or have your own genome data, our agent is ready to give an answer.
+                    </div>
+                    <div class="slider-item">
+                        <h3>Genetics</h3>
+                        Do you have questions about genetics? Whether you're curious about the genetic causes of diseases, exploring how genes impact your daily health choices, seeking information on family planning, or uncovering a family history of inherited diseases, our agent is connected to the Online Mendelian Inheritance in Man (OMIM) database and other reliable sources to provide you with the answers you need.
+                    </div>
+            </div>
+            <div class="buttons sections">
+                <img class="slider-prev" src="./images/left-arrow1.png">
+                <img class="slider-next" src="./images/right-arrow1.png">
+            </div>
+        </div>
+        <!-- Add more content as needed -->
+        <div class="button">
+            <h2 class="chat-now sections sections-wrapper">Chat Now!*</h2>
+            <img class="arrow sections sections-wrapper" src="./images/arrow.png">
+            <p class="note sections sections-wrapper" >*You should have ChatGPT Plus subscription plan to be able to use agents</p>
+            <section class="button-itself sections-wrapper">
+                <img class="sun1 sections" src="./images/sun1.png">
+                <section class="sections">
+                    <a href="https://chat.openai.com/g/g-HnvTUyFeq-just-dna-seq-rest-api-agent" target="_blank" rel="noopener noreferrer"><p>LongevityMap Agent</p></a>
+                    <a  href="" target="_blank" rel="noopener noreferrer"><p>DrugAge Agent</p></a>
+                    <a  href="" target="_blank" rel="noopener noreferrer"><p>AnAge Agent</p></a>
+                </section>
+            </section>
+            <img class="schema sections sections-wrapper" src="./images/schema.png">
+        </div>
+
+    </section>
+    <!-- Donors and Affiliations Section -->
+    <section class="donors-affiliations">
+        <h2>Donors and Affiliations</h2>
+        <p>Special thanks to our generous donors and affiliations who support our mission.</p>
+        <div class="logos-div">
+            <img class="zuzalu" src="./images/zuzalu.png">
+            <img class="openai" src="./images/OpenAI_Logo.svg.png">
+            <span class="longevitygpt">Longevity GPT</span>
+            <img class="heales" src="./images/heales.png">
+        </div>
+        <!-- Add donor and affiliation information here -->
+        <img class="footer-image" src="./images/wave.png">
+    </section>
+
+    <!-- Project Links Section -->
+    <section class="project-links">
+        <img class="footer-image reversed" src="./images/wave_reversed.png">
+        <h2>Project Links</h2>
+        <a class="link-header" target="_blank" rel="noopener noreferrer" href="https://github.com/longevity-genie">
+            <svg  class="github-logo" width="98" height="96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#fff"/></svg>
+        </a>
+        <a class="link-header telegram" target="_blank" rel="noopener noreferrer" href="https://web.telegram.org/a/#-1001603106352">
+            <svg xmlns="http://www.w3.org/2000/svg" height="150" width="150" viewBox="-36 -60 312 360"><defs><linearGradient gradientUnits="userSpaceOnUse" y2="51.9" y1="11.536" x2="28.836" x1="46.136" id="a"><stop offset="0" stop-color="#37aee2"/><stop offset="1" stop-color="#1e96c8"/></linearGradient></defs><g transform="scale(3.4682)"><circle fill="url(#a)" r="34.6" cx="34.6" cy="34.6"/><path fill="#fff" d="M14.4 34.3l23.3-9.6c2.3-1 10.1-4.2 10.1-4.2s3.6-1.4 3.3 2c-.1 1.4-.9 6.3-1.7 11.6l-2.5 15.7s-.2 2.3-1.9 2.7c-1.7.4-4.5-1.4-5-1.8-.4-.3-7.5-4.8-10.1-7-.7-.6-1.5-1.8.1-3.2 3.6-3.3 7.9-7.4 10.5-10 1.2-1.2 2.4-4-2.6-.6l-14.1 9.5s-1.6 1-4.6.1c-3-.9-6.5-2.1-6.5-2.1s-2.4-1.5 1.7-3.1z"/></g></svg></svg>
+        </a>
+    </section>
+<script>
+    function scrollTrigger(selector, options){
+        let els = document.querySelectorAll(selector)
+        els = Array.from(els)
+        els.forEach(el => {
+          addObserver(el, options)
+        })
+        }
+    function addObserver(el, options){
+      // We are creating a new IntersectionObserver instance
+      let observer = new IntersectionObserver((entries, options) => { // This takes a callback function that receives two arguments: the elements list and the observer instance.
+        entries.forEach(entry => {
+          // `entry.isIntersecting` will be true if the element is visible
+        if(entry.isIntersecting) {
+          entry.target.classList.add('animate-slide')
+          // We are removing the observer from the element after adding the active class
+          observer.unobserve(entry.target)
+        }
+      })
+    })
+    // Adding the observer to the element
+    observer.observe(el)
+  }
+
+  let options = {
+    root: document.querySelectorAll('sections-wrapper'),
+    rootMargin: '40%',
+    threshold: 1.0,
+  }
+
+  // Example usage
+  scrollTrigger('.sections', options)
+</script>
+<script src="script.js"></script>
+</div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2023 Longevity Genie. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
