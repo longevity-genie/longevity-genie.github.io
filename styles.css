@@ -535,7 +535,7 @@ a:hover:after{
     flex-direction: column;
    margin-bottom: -600px;
    position: relative;
-   z-index:5;
+   z-index:3;
    margin-left: 140px;
 }
 .button-itself{
@@ -728,6 +728,7 @@ font-size: 1.8em;
     }
     .slider-prev, .slider-next{
         width: 500px;
+        z-index: 101;
     }
     .slider-next{
         margin-left: 20px;
