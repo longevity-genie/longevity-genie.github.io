@@ -218,6 +218,7 @@ section h2 {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 350px;
+    gap: 60px;
 }
 .longevitygpt{
     font-size: 3.3em;
@@ -230,6 +231,9 @@ section h2 {
     height: 170px;
 }
 .heales{
+    height: 170px;
+}
+.cellfabric{
     height: 170px;
 }
 .line{
