@@ -430,15 +430,6 @@ font-size: 1.3em;
    .sun-3{
     height: 150px;
    }
-a.link:after{
-    content: "";
-    position: absolute;
-    height: 6px;
-    width: 0;
-    background: white;
-    border-radius: 50px;
-    transition: width 0.3s ease;
-}
 
 a.link-1:after {
     bottom: 155px;
@@ -553,6 +544,14 @@ flex-direction: row;
 justify-content: space-around;
 align-items:end;
 }
+.button-itself.button-itself1{
+    position: absolute;
+    font-size: 1em;
+    right: 0;
+    left: auto;
+    text-align: right;
+    width: 50%;
+}
 .terms_of_use{
     font-size: 2em;
     width: 70%;
@@ -582,30 +581,6 @@ align-items:end;
     position: absolute;
     width: 100%;
     z-index: 0;
-}
-.team{
-    width: 80%;
-}
-.member{
-    width: 80%;
-    background-color: white;
-    margin-top: 100px;
-    margin-left: 35%;
-    padding: 30px;
-    border-top-right-radius: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
-.member p{
-font-size: 1.8em;
-}
-.member h3{
-    font-size: 2.2em;
-    color:#7d4c94
-}
-.photo{
-    height: 270px;
 }
 .link-11{
     font-size: 4em;
