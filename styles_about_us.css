@@ -40,7 +40,12 @@ padding-top: 0px;
     align-items: center;
     border-bottom-left-radius: 10%;
 }
-
+.link-14.inside{
+    display: none;
+}
+h1.inside{
+    display: none;
+}
 .member p{
 font-size: 1.2em;
 text-align: left;
@@ -98,11 +103,12 @@ font-size: 4em;
     .team{
         margin-top: 200px;
     }
-    h1{
-        font-size: 9em;
-        display: block;
+    .link-14.inside{
+        margin-top: -40px;
+        margin-bottom: 40px;
+        display: contents;
     }
-    link-14{
-        font-size: 9em;
+    h1.inside{
+        display:block;
     }
 }
