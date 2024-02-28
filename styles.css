@@ -219,6 +219,7 @@ section h2 {
     align-items: center;
     padding-bottom: 350px;
     gap: 60px;
+    flex-wrap: wrap;
 }
 .longevitygpt{
     font-size: 3.3em;
@@ -265,6 +266,7 @@ section h2 {
     display: flex;
     justify-content: end;
     margin-left: auto;
+    flex-wrap: wrap;
 }
 .nav{
     height: 50px;
@@ -567,7 +569,7 @@ a.bold{
     border-top-right-radius: 15%;
     border-top-left-radius: 15%;
     border-bottom-left-radius: 10%;
-font-size: 2em;
+font-size: 1.8em;
 font-weight: 100;
 display: flex;
 flex-direction: row;
@@ -642,6 +644,16 @@ align-items:end;
         margin-top: 0px;
         font-size: 3em;
     }
+    .sun1{
+        position: absolute;
+        height: 320px;
+        border: 6px solid white;
+        padding: 0;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        top: -150px;
+    }
     .header p{
         font-size: 1.4em;
         margin-top: 0px;
@@ -668,6 +680,9 @@ align-items:end;
     }
     .imagess{
         margin-top: -650px;
+    }
+    h2.chat-now{
+        top: 100px;
     }
     #textbig{
         text-align: center;
@@ -729,9 +744,10 @@ align-items:end;
         margin-left: -100vw;
         overflow-x: hidden;
         width: 300vw;
+        display: none;
     }
     .grandpablur2{
-        width: 302%;
+        display: none;
     }
     .future-plans{
         overflow-x: hidden;
@@ -751,7 +767,7 @@ align-items:end;
         z-index: 101;
     }
     .slider-next{
-        margin-left: 20px;
+        margin-right: 0px;
     }
     .logos-div{
         flex-direction: column;
@@ -776,9 +792,10 @@ align-items:end;
     }
     .arrow{
         position: relative;
-        margin-left: 200px;
+        margin-left: 140px;
         top: 80px;
         order: 3;
+        overflow: hidden;
     }
     .chat-now{
         margin-left: auto;
@@ -798,9 +815,10 @@ align-items:end;
     .button-itself{
         position: relative;
         top: 80px;
-        left: 60px;
+        left: 0px;
         order: 4;
     }
+    
     .donors-affiliations{
         margin-top: -200px;
         padding-top: 100px;
@@ -820,5 +838,26 @@ align-items:end;
     .buttons{
         margin-left: auto;
         margin-right: auto;
+    }
+    .longevitygpt{
+        font-size: 3.3em;
+        font-weight: 600;
+    }
+    .zuzalu{
+        height: 160px;
+    }
+    .openai{
+        height: 150px;
+    }
+    .heales{
+        height: 150px;
+    }
+    .cellfabric{
+        height: 150px;
+    }
+    section.sections.list-gpts.animate-slide{
+         top: -80px;
+         margin-left: 50px;
+         position: relative;
     }
 }
