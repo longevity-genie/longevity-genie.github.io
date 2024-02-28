@@ -826,6 +826,9 @@ align-items:end;
     .donors-affiliations p{
         width: 98%;
     }
+    .donors-affiliations h2{
+        font-size: 3em;
+    }
     .link-header{
         left: 0%;
         margin-right: auto;
@@ -860,4 +863,9 @@ align-items:end;
          margin-left: 50px;
          position: relative;
     }
+    .footer{
+        vertical-align: top;
+        min-height: 80px !important;
+    }
+
 }
