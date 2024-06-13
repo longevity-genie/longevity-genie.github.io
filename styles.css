@@ -273,6 +273,10 @@ section h2 {
     font-size: 17px;
     display: block;
     background-color: rgba(176, 110, 196, 0.8);
+    text-align: center;
+}
+#myLinks a.white-link{
+    color: rgb(251, 204, 255);
 }
 .menu-hamburger{
     display: flex;
