@@ -32,6 +32,9 @@ body {
     position: relative;
     z-index: 14;
 }
+.button_first{
+    display: none;
+}
 .header-text{
     text-align: left;
     margin-left: 30px;
@@ -261,12 +264,22 @@ section h2 {
     margin-right: 100px;
     transition: background-color 0.5s;
     display: none;
+    z-index: 100;
+}
+#myLinks a{
+    color: rgb(101, 67, 102);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: rgba(176, 110, 196, 0.8);
 }
 .menu-hamburger{
     display: flex;
     justify-content: end;
     margin-left: auto;
     flex-wrap: wrap;
+    z-index: 100;
 }
 .nav{
     height: 50px;
@@ -280,6 +293,11 @@ section h2 {
 .nav:hover{
     background-color: rgb(241, 194, 241, 0.8);
     border-radius: 20px;
+}
+#myLinks{
+display: none;
+height: 0px;
+transition: height 0.4s;
 }
 .menu:hover{
     background-color: #ad74ad;
@@ -512,6 +530,12 @@ a:hover{
     color:#513a58;
     transition: color 0.5s;
 }
+a.bold.bold-libre{
+    font-size: 1.9em;
+}
+.bold.bold-libre span{
+    color: rgb(238, 181, 250);
+}
 .button_beginning a:hover{
     color: #c5afec;
 }
@@ -639,6 +663,7 @@ align-items:end;
     .header{
         flex-direction: column;
         align-items: center;
+        z-index: 0;
     }
     .header h1{
         margin-top: 0px;
@@ -829,6 +854,7 @@ align-items:end;
     .donors-affiliations h2{
         font-size: 3em;
     }
+
     .link-header{
         left: 0%;
         margin-right: auto;
@@ -837,6 +863,17 @@ align-items:end;
         left: auto;
         right: 0%;
         margin-left: auto;
+    }
+    .button_first{
+        display:contents;
+    }
+    .button_first a{
+        display: block;
+        text-align: right;
+        font-size: 1.5em;
+        font-weight: 200;
+        color:#513a58;
+        transition: color 0.5s;
     }
     .buttons{
         margin-left: auto;

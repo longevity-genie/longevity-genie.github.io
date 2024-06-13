@@ -37,6 +37,17 @@ function rollSlider(){
     sliderLine.style.transform = "translate(-" + count*width + "px)";
 }
 
+function burgerFunc() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.height = "0";
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+    x.style.height = "fit-content";
+  }
+}
+
 /*document.addEventListener("touchstart", handleTouchStart, false);
 document.addEventListener("touchmove", handleTouchMove, false);
 
